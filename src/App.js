@@ -1,6 +1,7 @@
 import React, { Component } from "react"
 import logo from "./logo.svg"
 import "./App.css"
+import { Main } from "./pages/Main"
 
 class LambdaDemo extends Component {
   constructor(props) {
@@ -35,6 +36,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <Main></Main>
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
